@@ -1,0 +1,4 @@
+export const DEFAULT_Z_INDICES = {
+  INDICATORS: 900
+}
+export const DEFAULT_CAROUSEL_ACCENT_COLOR = '#000'

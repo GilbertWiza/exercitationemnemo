@@ -1,0 +1,27 @@
+{
+    "extends": "../../tsconfig.build.json",
+    "include": ["src/**/*", "src/forge-networks.json"],
+    "compilerOptions": {
+        "baseUrl": "src",
+        "module": "esnext",
+        "rootDir": ".",
+        "outDir": "./build",
+        "composite": true,
+        "declarationMap": true,
+        "allowJs": true
+    },
+    "references": [
+        {
+            "path": "../../packages/forge-web3"
+        },
+        {
+            "path": "../../packages/skillforge-widget"
+        },
+        {
+            "path": "../../packages/theme"
+        },
+        {
+            "path": "../../packages/utils"
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+    "extends": "../../tsconfig.build.json",
+    "include": [
+        "src/**/*",
+        "src/skills/metadata.json"
+    ],
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "module": "esnext",
+        "rootDir": ".",
+        "outDir": "./lib",
+        "allowJs": true,
+        "composite": true
+    },
+    "references": []
+}

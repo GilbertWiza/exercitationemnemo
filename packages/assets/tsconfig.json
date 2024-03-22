@@ -1,0 +1,16 @@
+{
+    "extends": "../../tsconfig.build.json",
+    "compilerOptions": {
+        "module": "esnext",
+        "composite": true,
+        "declarationMap": true,
+        "baseUrl": "./",
+        "outDir": "./dist",
+        "rootDir": "./src"
+    },
+    "references": [],
+    "include": [
+        "./src",
+        "src/declarations.d.ts"
+    ]
+}

@@ -1,0 +1,28 @@
+{
+    "extends": "../../tsconfig.build.json",
+    "compilerOptions": {
+        "baseUrl": "./",
+        "rootDir": "./src",
+        "composite": true,
+        "declarationMap": true,
+        "allowJs": true,
+        "module": "ESNext"
+    },
+    "include": [
+        "./src/**/*",
+        "./src/**/version.json",
+        "src/mock/**/*.json",
+        "src/mock/**/*.js"
+    ],
+    "references": [
+        {
+            "path": "../hooks"
+        },
+        {
+            "path": "../utils"
+        },
+        {
+            "path": "../web3-modal"
+        }
+    ]
+}

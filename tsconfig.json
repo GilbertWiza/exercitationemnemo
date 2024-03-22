@@ -1,0 +1,107 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "baseUrl": "./",
+        "paths": {
+            "@past3lle/assets/*": [
+                "packages/assets/src/*"
+            ],
+            "@past3lle/carousel/*": [
+                "packages/carousel/src/*"
+            ],
+            "@past3lle/carousel-hooks/*": [
+                "packages/carousel-hooks/src/*"
+            ],
+            "@past3lle/components/*": [
+                "packages/components/src/*"
+            ],
+            "@past3lle/constants/*": [
+                "packages/constants/src/*"
+            ],
+            "@past3lle/hooks/*": [
+                "packages/hooks/src/*"
+            ],
+            "@past3lle/pastellelabs-landing-ui/*": [
+                "apps/pastellelabs-landing-ui/src/*"
+            ],
+            "@past3lle/skillforge-ui/*": [
+                "apps/skillforge-ui/src/*"
+            ],
+            "@past3lle/forge-web3/*": [
+                "packages/forge-web3/src/*"
+            ],
+            "@past3lle/skillforge-widget/*": [
+                "packages/skillforge-widget/src/*"
+            ],
+            "@past3lle/skills-nft/*": [
+                "apps/skillforge-ui/src/*"
+            ],
+            "@past3lle/theme/*": [
+                "packages/theme/src/*"
+            ],
+            "@past3lle/types/*": [
+                "packages/types/src/*"
+            ],
+            "@past3lle/utils/*": [
+                "packages/utils/src/*"
+            ],
+            "@past3lle/wagmi-connectors/*": [
+                "packages/wagmi-connectors/src/*"
+            ],
+            "@past3lle/web3-modal/*": [
+                "packages/web3-modal/src/*"
+            ]
+        }
+    },
+    "references": [
+        {
+            "path": "packages/assets"
+        },
+        {
+            "path": "packages/carousel-hooks"
+        },
+        {
+            "path": "packages/carousel"
+        },
+        {
+            "path": "packages/components"
+        },
+        {
+            "path": "packages/constants"
+        },
+        {
+            "path": "packages/hooks"
+        },
+        {
+            "path": "packages/forge-web3"
+        },
+        {
+            "path": "packages/skillforge-widget"
+        },
+        {
+            "path": "packages/theme"
+        },
+        {
+            "path": "packages/types"
+        },
+        {
+            "path": "packages/utils"
+        },
+        {
+            "path": "packages/wagmi-connectors"
+        },
+        {
+            "path": "packages/web3-modal"
+        },
+        {
+            "path": "apps/pastellelabs-landing-ui"
+        },
+        {
+            "path": "apps/skillforge-ui"
+        },
+        {
+            "path": "apps/skills-nft"
+        }
+    ],
+    "files": []
+}
